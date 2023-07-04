@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "better_lead:block/raw_lead_block" }
+  }
+}

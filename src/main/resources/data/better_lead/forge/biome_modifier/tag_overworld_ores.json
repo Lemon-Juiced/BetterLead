@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": [
+    "better_lead:lead_ore",
+    "better_lead:deepslate_lead_ore"
+  ],
+  "step": "underground_ores"
+}

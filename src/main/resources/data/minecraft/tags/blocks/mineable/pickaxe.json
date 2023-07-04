@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "better_lead:lead_ore",
+    "better_lead:deepslate_lead_ore",
+    "better_lead:raw_lead_block"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "better_lead:lead_helmet",
+    "better_lead:lead_chestplate",
+    "better_lead:lead_leggings",
+    "better_lead:lead_boots"
+  ]
+}

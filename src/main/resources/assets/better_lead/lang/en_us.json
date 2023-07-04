@@ -1,0 +1,24 @@
+{
+  "item.better_lead.raw_lead": "Raw Lead",
+
+  "item.better_lead.lead_sword": "Lead Sword",
+  "item.better_lead.lead_shovel": "Lead Shovel",
+  "item.better_lead.lead_pickaxe": "Lead Pickaxe",
+  "item.better_lead.lead_axe": "Lead Axe",
+  "item.better_lead.lead_hoe": "Lead Hoe",
+  "item.better_lead.lead_bat": "Lead Bat",
+
+  "item.better_lead.lead_helmet": "Lead Helmet",
+  "item.better_lead.lead_chestplate": "Lead Chestplate",
+  "item.better_lead.lead_leggings": "Lead Leggings",
+  "item.better_lead.lead_boots": "Lead Boots",
+
+  "block.better_lead.lead_ore": "Lead Ore",
+  "block.better_lead.deepslate_lead_ore": "Deepslate Lead Ore",
+  "block.better_lead.raw_lead_block": "Block of Raw Lead",
+  
+  "itemGroup.better_lead": "Better Lead",
+  
+  "tooltip.better_lead.additional_knockback": "Additional Knockback",
+  "tooltip.better_lead.poisons_enemies": "Poisons Enemies"
+}
