@@ -1,9 +1,17 @@
 package lemon_juice.better_lead.item.custom.tiers;
 
+import lemon_juice.better_lead.BetterLead;
 import lemon_juice.better_lead.tags.ModTags;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
+import net.minecraftforge.common.TierSortingRegistry;
+
+import java.util.List;
 
 public class ModTiers {
     /* WOOD(0, 59, 2.0F, 0.0F, 15, () -> {return Ingredient.of(ItemTags.PLANKS);}),
@@ -14,6 +22,5 @@ public class ModTiers {
      * NETHERITE(4, 2031, 9.0F, 4.0F, 15, () -> {return Ingredient.of(Items.NETHERITE_INGOT);});
      */
 
-    public static final ForgeTier LEAD_TIER = new ForgeTier(2, 800, 3.0F, 1.0F,18, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(ModTags.Items.INGOTS_LEAD));
-
+    public static final Tier LEAD_TIER = TierSortingRegistry.registerTier(new ForgeTier(2, 800, 3.0F, 1.0F,18, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(ModTags.Items.INGOTS_LEAD)), new ResourceLocation(BetterLead.MOD_ID, "lead"), List.of(Tiers.WOOD), List.of(Tiers.IRON));
 }
