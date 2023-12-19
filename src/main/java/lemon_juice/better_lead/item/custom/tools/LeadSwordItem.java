@@ -1,6 +1,6 @@
 package lemon_juice.better_lead.item.custom.tools;
 
-import lemon_juice.better_lead.item.custom.tiers.ModTiers;
+import lemon_juice.better_lead.item.custom.tiers.BetterLeadTiers;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -15,7 +15,7 @@ import java.util.List;
 
 public class LeadSwordItem extends SwordItem {
     public LeadSwordItem(Properties properties) {
-        super(ModTiers.LEAD_TIER, 3, -2.4F, properties);
+        super(BetterLeadTiers.LEAD_TIER, 3, -2.4F, properties);
     }
 
     @Override

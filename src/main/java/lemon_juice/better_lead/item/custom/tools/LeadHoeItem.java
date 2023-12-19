@@ -1,6 +1,6 @@
 package lemon_juice.better_lead.item.custom.tools;
 
-import lemon_juice.better_lead.item.custom.tiers.ModTiers;
+import lemon_juice.better_lead.item.custom.tiers.BetterLeadTiers;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -15,7 +15,7 @@ import java.util.List;
 
 public class LeadHoeItem extends HoeItem {
     public LeadHoeItem(Properties properties) {
-        super(ModTiers.LEAD_TIER, -2, -1.0F, properties);
+        super(BetterLeadTiers.LEAD_TIER, -2, -1.0F, properties);
     }
 
     @Override
@@ -28,6 +28,4 @@ public class LeadHoeItem extends HoeItem {
         damagedEntity.addEffect(new MobEffectInstance(MobEffects.POISON, 1, 60));
         return super.hurtEnemy(itemStack, damagedEntity, userEntity);
     }
-
-
 }

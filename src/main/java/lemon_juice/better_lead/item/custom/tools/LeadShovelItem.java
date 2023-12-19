@@ -1,6 +1,6 @@
 package lemon_juice.better_lead.item.custom.tools;
 
-import lemon_juice.better_lead.item.custom.tiers.ModTiers;
+import lemon_juice.better_lead.item.custom.tiers.BetterLeadTiers;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -15,7 +15,7 @@ import java.util.List;
 
 public class LeadShovelItem extends ShovelItem {
     public LeadShovelItem(Properties properties) {
-        super(ModTiers.LEAD_TIER, 1.5F, -3.0F, properties);
+        super(BetterLeadTiers.LEAD_TIER, 1.5F, -3.0F, properties);
     }
 
     @Override

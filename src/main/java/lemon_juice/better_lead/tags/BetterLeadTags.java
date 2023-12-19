@@ -5,12 +5,12 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
-public class ModTags {
+public class BetterLeadTags {
     public static void init() {
         Items.init();
     }
 
-    private ModTags() {}
+    private BetterLeadTags() {}
 
     public static class Items {
         private static void init() {
